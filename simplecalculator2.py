@@ -3,8 +3,12 @@ while True:
     print("2 Subtraction")
     print("3 Multiplication")
     print("4 Division")
+    print("Enter q to exit")
 
     choice = input("Enter your choice : ")
+
+    if choice == 'q':
+        break
 
     num1 = float(input("Enter number 1 : "))
     num2 = float(input("Enter number 2 : "))
@@ -26,3 +30,5 @@ while True:
 
     else:
         print("invalid choice")
+
+    print()
